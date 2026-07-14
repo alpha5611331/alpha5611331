@@ -49,46 +49,62 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 ### More Projects
 
 **AI & Machine Learning**
-- [ai-assist](https://github.com/alpha5611331/ai-assist) / [ai-assist-py](https://github.com/alpha5611331/ai-assist-py) - Desktop ChatGPT-like chatbot UI (C# WinForms and Python variants) with configurable API key and model selection
-- [fastapi-websocket-chatroom](https://github.com/alpha5611331/fastapi-websocket-chatroom) - Real-time multi-client chatroom built on FastAPI WebSockets
-- [tft-model-training](https://github.com/alpha5611331/tft-model-training) - Temporal Fusion Transformer model training pipeline
-- [deep-learning-practice](https://github.com/alpha5611331/deep-learning-practice) - PyTorch NLP tutorial collection based on "Getting Started with Deep Learning"
-- [msg-bin-analyze](https://github.com/alpha5611331/msg-bin-analyze) - Binary structure analysis and JSON parsing tool
+- [ai-assist](https://github.com/alpha5611331/ai-assist) - Desktop ChatGPT-like chatbot UI with configurable API key and model selection. *Stack: C# · WinForms*
+- [ai-assist-py](https://github.com/alpha5611331/ai-assist-py) - Python desktop AI chat assistant. *Stack: Python · OpenAI API · Pydantic · NiceGUI · pywebview · SQLAlchemy*
+- [fastapi-websocket-chatroom](https://github.com/alpha5611331/fastapi-websocket-chatroom) - Real-time multi-client chatroom. *Stack: FastAPI · WebSockets · Uvicorn*
+- [tft-model-training](https://github.com/alpha5611331/tft-model-training) - Temporal Fusion Transformer model training pipeline for crypto price forecasting. *Stack: PyTorch · PyTorch Lightning · PyTorch Forecasting · Bittensor · CCXT · Optuna · scikit-learn*
+- [deep-learning-practice](https://github.com/alpha5611331/deep-learning-practice) - PyTorch NLP tutorial collection (GPT-2 sentence generation, Sentence-BERT chatbot). *Stack: Python · PyTorch · Jupyter Notebook*
+- [msg-bin-analyze](https://github.com/alpha5611331/msg-bin-analyze) - Binary structure analysis and JSON parsing tool. *Stack: Python · Tkinter*
 
 **Web Scraping & Browser Automation**
-- [stealth-chrome-automation](https://github.com/alpha5611331/stealth-chrome-automation) / [stealth-chrome-automation-py](https://github.com/alpha5611331/stealth-chrome-automation-py) - Undetectable Chrome automation (JS & Python), evading detection beyond Selenium/Puppeteer/Playwright
-- [scrap-rapidapi.com](https://github.com/alpha5611331/scrap-rapidapi.com), [scrap-capterra.com](https://github.com/alpha5611331/scrap-capterra.com), [scrap-fiverr.com](https://github.com/alpha5611331/scrap-fiverr.com), [scrap-shopee.tw-puppeteer](https://github.com/alpha5611331/scrap-shopee.tw-puppeteer), [scrap-apps.shopify.com](https://github.com/alpha5611331/scrap-apps.shopify.com), [scrap-www.cde.ca.gov](https://github.com/alpha5611331/scrap-www.cde.ca.gov), [scrap-www.floridabar.org](https://github.com/alpha5611331/scrap-www.floridabar.org) - Target-specific scrapers for e-commerce, B2B directories, and government sites
-- [crawl_www.hwk-mittelfranken.de](https://github.com/alpha5611331/crawl_www.hwk-mittelfranken.de) - Cloudflare-bypassing crawler
-- [autodiler.me-scraper](https://github.com/alpha5611331/autodiler.me-scraper), [mauwi.wycokck.org](https://github.com/alpha5611331/mauwi.wycokck.org) - Additional site-specific scrapers
-- [html-parser](https://github.com/alpha5611331/html-parser) - Generic HTML parsing utility
-- [api-tunnel](https://github.com/alpha5611331/api-tunnel) - API tunneling utility
-- [google_form_test_auto](https://github.com/alpha5611331/google_form_test_auto) - Automated Google Forms submission/testing
-- [gen-shopify-csv](https://github.com/alpha5611331/gen-shopify-csv) - Shopify product CSV generator
-- [shuffle.com-signup](https://github.com/alpha5611331/shuffle.com-signup) - Automated signup flow script
+- [stealth-chrome-automation](https://github.com/alpha5611331/stealth-chrome-automation) - Undetectable Chrome automation via raw DevTools Protocol. *Stack: Node.js · Chrome DevTools Protocol (ws)*
+- [stealth-chrome-automation-py](https://github.com/alpha5611331/stealth-chrome-automation-py) - Python port of the stealth Chrome automation engine. *Stack: Python · Chrome DevTools Protocol*
+- [scrap-rapidapi.com](https://github.com/alpha5611331/scrap-rapidapi.com) - RapidAPI marketplace scraper/indexer. *Stack: Python · Playwright · Loguru*
+- [scrap-capterra.com](https://github.com/alpha5611331/scrap-capterra.com) - Capterra scraper with automated captcha solving. *Stack: Python · Chrome DevTools Protocol (WebSocket) · PyAutoGUI*
+- [scrap-fiverr.com](https://github.com/alpha5611331/scrap-fiverr.com) - Fiverr profile and listing scraper. *Stack: Python · Chrome DevTools Protocol (WebSocket)*
+- [scrap-shopee.tw-puppeteer](https://github.com/alpha5611331/scrap-shopee.tw-puppeteer) - Shopee Taiwan scraper. *Stack: Node.js · Chrome DevTools Protocol (ws)*
+- [scrap-apps.shopify.com](https://github.com/alpha5611331/scrap-apps.shopify.com) - Shopify App Store downloader. *Stack: Node.js*
+- [scrap-www.cde.ca.gov](https://github.com/alpha5611331/scrap-www.cde.ca.gov) - California Dept. of Education directory scraper. *Stack: Python · Chrome DevTools Protocol (WebSocket)*
+- [scrap-www.floridabar.org](https://github.com/alpha5611331/scrap-www.floridabar.org) - Florida Bar member directory scraper. *Stack: Python · Chrome DevTools Protocol (WebSocket)*
+- [crawl_www.hwk-mittelfranken.de](https://github.com/alpha5611331/crawl_www.hwk-mittelfranken.de) - Cloudflare-bypassing crawler. *Stack: Python · Chrome DevTools Protocol (WebSocket)*
+- [autodiler.me-scraper](https://github.com/alpha5611331/autodiler.me-scraper) - Vehicle listing scraper. *Stack: Python · Playwright · BeautifulSoup*
+- [mauwi.wycokck.org](https://github.com/alpha5611331/mauwi.wycokck.org) - Public records scraper. *Stack: Python · Chrome DevTools Protocol (WebSocket)*
+- [html-parser](https://github.com/alpha5611331/html-parser) - Retailer HTML parsing utility (Walmart, Costco, Best Buy, Home Depot, Overstock, Sam's Club). *Stack: Python*
+- [api-tunnel](https://github.com/alpha5611331/api-tunnel) - Backend API service with JWT auth. *Stack: FastAPI · MongoDB (PyMongo) · Alembic · python-jose*
+- [google_form_test_auto](https://github.com/alpha5611331/google_form_test_auto) - Automated Google Forms submission with Telegram bot control. *Stack: Python · Pyrogram (Telegram) · Chrome DevTools Protocol*
+- [gen-shopify-csv](https://github.com/alpha5611331/gen-shopify-csv) - Shopify product CSV generator. *Stack: Python · Requests*
+- [shuffle.com-signup](https://github.com/alpha5611331/shuffle.com-signup) - Automated signup flow with Telegram verification. *Stack: Python · Pyrogram (Telegram) · Chrome DevTools Protocol*
 
 **Blockchain / Solana**
-- [solana-staking-app](https://github.com/alpha5611331/solana-staking-app), [anchor-staking-app](https://github.com/alpha5611331/anchor-staking-app) - Solana staking dApps built with Anchor
-- [fullstack-mysolanaapp](https://github.com/alpha5611331/fullstack-mysolanaapp) - Full-stack Solana dApp
-- [solana-tic-tac-toe](https://github.com/alpha5611331/solana-tic-tac-toe) - On-chain tic-tac-toe game (Rust/Anchor)
-- [create-pda-example](https://github.com/alpha5611331/create-pda-example), [transfer-sol-example](https://github.com/alpha5611331/transfer-sol-example), [solana-hello-world](https://github.com/alpha5611331/solana-hello-world) - Solana program examples covering PDAs, SOL transfers, and basic on-chain programs
+- [solana-staking-app](https://github.com/alpha5611331/solana-staking-app) - Solana staking program. *Stack: Rust · Solana SDK*
+- [anchor-staking-app](https://github.com/alpha5611331/anchor-staking-app) - Solana staking dApp. *Stack: Rust · Anchor · TypeScript*
+- [fullstack-mysolanaapp](https://github.com/alpha5611331/fullstack-mysolanaapp) - Full-stack Solana dApp. *Stack: Rust · Anchor · React · TypeScript*
+- [solana-tic-tac-toe](https://github.com/alpha5611331/solana-tic-tac-toe) - On-chain tic-tac-toe game. *Stack: Rust · Anchor · TypeScript*
+- [create-pda-example](https://github.com/alpha5611331/create-pda-example) - Program Derived Address example. *Stack: Rust · Solana SDK · Borsh*
+- [transfer-sol-example](https://github.com/alpha5611331/transfer-sol-example) - SOL transfer example program. *Stack: Rust · Solana SDK*
+- [solana-hello-world](https://github.com/alpha5611331/solana-hello-world) - Minimal on-chain Solana program. *Stack: Rust · Solana SDK · Borsh*
 
 **Full-Stack Web Apps**
-- [ge-crm-front](https://github.com/alpha5611331/ge-crm-front) / [ge-crm-back](https://github.com/alpha5611331/ge-crm-back) - Full-stack CRM application
-- [api-plugin-frontend](https://github.com/alpha5611331/api-plugin-frontend) / [api-plugin-backend](https://github.com/alpha5611331/api-plugin-backend) - API plugin frontend and backend
-- [creed-dekaron-user-frontend](https://github.com/alpha5611331/creed-dekaron-user-frontend) - Game community frontend with Captcha, PayPal, and Datatable integration (NodeJS/ReactJS)
-- [creed-dekaron-admin-frontend](https://github.com/alpha5611331/creed-dekaron-admin-frontend) - Admin panel counterpart for the Creed Dekaron platform
-- [visionui-react-admin-panel](https://github.com/alpha5611331/visionui-react-admin-panel) - VisionUI-based React admin panel (MSSQL, Express, Node.js)
-- [portfolio-prototype](https://github.com/alpha5611331/portfolio-prototype), [nextjs-self-tech](https://github.com/alpha5611331/nextjs-self-tech), [starter-nextjs](https://github.com/alpha5611331/starter-nextjs) - Next.js portfolio and starter projects
-- [checker_board_webpage](https://github.com/alpha5611331/checker_board_webpage) - Node.js web interface
-- [react-person-demo](https://github.com/alpha5611331/react-person-demo) - React person component demo
-- [ta-v00](https://github.com/alpha5611331/ta-v00) - Laravel (Blade) application
-- [analysi-importer](https://github.com/alpha5611331/analysi-importer) - Data analysis/import tool
+- [ge-crm-front](https://github.com/alpha5611331/ge-crm-front) - CRM frontend. *Stack: Next.js 15 · React 19 · Tailwind CSS · AG Grid · React Hook Form*
+- [ge-crm-back](https://github.com/alpha5611331/ge-crm-back) - CRM backend. *Stack: FastAPI · MongoDB (PyMongo) · Twilio · PyOTP · JWT Auth (python-jose)*
+- [api-plugin-frontend](https://github.com/alpha5611331/api-plugin-frontend) - API plugin platform frontend. *Stack: Next.js · TypeScript*
+- [api-plugin-backend](https://github.com/alpha5611331/api-plugin-backend) - API plugin platform backend. *Stack: FastAPI · MongoDB (PyMongo) · BeautifulSoup · APScheduler*
+- [creed-dekaron-user-frontend](https://github.com/alpha5611331/creed-dekaron-user-frontend) - Game community frontend with captcha, PayPal, and datatable integration. *Stack: React 18 · Ant Design · Material Tailwind · PayPal SDK*
+- [creed-dekaron-admin-frontend](https://github.com/alpha5611331/creed-dekaron-admin-frontend) - Admin panel for the Creed Dekaron platform. *Stack: React 18 · Ant Design · Material Tailwind*
+- [visionui-react-admin-panel](https://github.com/alpha5611331/visionui-react-admin-panel) - VisionUI-based admin panel. *Stack: React 18 · Ant Design · Flowbite · Express.js*
+- [portfolio-prototype](https://github.com/alpha5611331/portfolio-prototype) - Early portfolio site. *Stack: React 17 · Bootstrap · react-pdf*
+- [nextjs-self-tech](https://github.com/alpha5611331/nextjs-self-tech) - Tech blog. *Stack: Next.js · MongoDB · react-markdown*
+- [starter-nextjs](https://github.com/alpha5611331/starter-nextjs) - Next.js starter template. *Stack: Next.js · Node.js server*
+- [checker_board_webpage](https://github.com/alpha5611331/checker_board_webpage) - Real-time board game web app. *Stack: Express.js · Socket.io · MySQL · JWT*
+- [react-person-demo](https://github.com/alpha5611331/react-person-demo) - React component demo. *Stack: React · Cypress*
+- [ta-v00](https://github.com/alpha5611331/ta-v00) - Document processing application. *Stack: Laravel 13 · PHP 8.2 · PHPWord · Vite*
+- [analysi-importer](https://github.com/alpha5611331/analysi-importer) - Audio transcription and analysis pipeline. *Stack: FastAPI · OpenAI API · Azure Cognitive Speech · PostgreSQL (SQLAlchemy) · AWS S3 (boto3) · APScheduler*
 
 **Utilities**
-- [docx2pdf-demo](https://github.com/alpha5611331/docx2pdf-demo) - DOCX to PDF conversion without watermarking
-- [write-xlsx-py](https://github.com/alpha5611331/write-xlsx-py) - Python XLSX file-writing demo
-- [parse-bitcoin-addresses](https://github.com/alpha5611331/parse-bitcoin-addresses) - Bitcoin address parser
-- [concurrent-tcp-server-client](https://github.com/alpha5611331/concurrent-tcp-server-client) - Concurrent TCP server/client demo
+- [docx2pdf-demo](https://github.com/alpha5611331/docx2pdf-demo) - DOCX to PDF conversion without watermarking. *Stack: Python*
+- [write-xlsx-py](https://github.com/alpha5611331/write-xlsx-py) - XLSX file-writing demo. *Stack: Python · XlsxWriter*
+- [parse-bitcoin-addresses](https://github.com/alpha5611331/parse-bitcoin-addresses) - Bitcoin address parser. *Stack: Python · base58 · bech32 · pycryptodome*
+- [concurrent-tcp-server-client](https://github.com/alpha5611331/concurrent-tcp-server-client) - Concurrent TCP server/client demo. *Stack: Python · sockets · threading*
 
 ---
 

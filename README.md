@@ -1,8 +1,10 @@
 ﻿# Senior LLM & Agentic AI & Full-Stack Engineer
 
-LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kubernetes
+LangGraph · LangChain · PyTorch · OpenCV · FastAPI · React/Next.js · Multi-Tenant SaaS · GCP/AWS
 
-10+ years building production-grade systems - from autonomous multi-agent workflows to high-performance APIs and modern full-stack applications.
+10+ years designing and shipping production systems across autonomous multi-agent AI, LLM-powered applications, machine learning, and computer vision, backed by high-performance backend APIs and modern full-stack, multi-tenant SaaS platforms.
+
+Comfortable owning a project end-to-end: agent orchestration and RAG pipelines, model training and evaluation, real-time video/data pipelines, API and data-model design, and production-grade React/Next.js frontends, with the testing, observability, and security discipline to run it all reliably at scale.
 
 **Contents:** [What I Build](#what-i-build) · [Core Stack](#core-stack) · [Best Practices](#best-practices) · [Projects](#projects)
 
@@ -22,14 +24,14 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 
 ## Core Stack
 
-**Agentic AI** - LangGraph · CrewAI · AutoGen · Tool-Calling · Agent Memory · Multi-Agent Orchestration  
-**LLM & Search** - LangChain · OpenAI GPT-4o/o1 · Anthropic Claude · Hugging Face · RAG Pipelines · Qdrant · Pinecone · Weaviate · Elasticsearch  
-**Machine Learning** - PyTorch · PyTorch Lightning · PyTorch Forecasting (Temporal Fusion Transformer) · scikit-learn · Optuna · TensorBoard · pandas · NumPy  
-**Computer Vision** - OpenCV · Image Classification · Gesture Recognition · Real-Time Video Processing · WebRTC (aiortc)  
-**Backend** - Python · FastAPI · Django · Flask · Node.js · NestJS · GraphQL · REST · gRPC · PostgreSQL · MongoDB · Redis  
-**Frontend** - React · Next.js · TypeScript · Tailwind CSS · Shadcn/ui · Vue.js · Redux · Zustand  
-**Cloud & DevOps** - GCP · AWS · Kubernetes · Docker · Terraform · ArgoCD · GitHub Actions · Datadog · Grafana  
-**SaaS & Multi-Tenancy** - Tenant Isolation (schema/row-level) · Org & Workspace Scoping · RBAC per Tenant · Stripe/Usage-Based Billing · Feature Flags · Self-Serve Onboarding  
+**Agentic AI** - LangGraph · CrewAI · AutoGen · Tool-Calling · Agent Memory · Multi-Agent Orchestration
+**LLM & Search** - LangChain · OpenAI GPT-4o/o1 · Anthropic Claude · Hugging Face · RAG Pipelines · Qdrant · Pinecone · Weaviate · Elasticsearch
+**Machine Learning** - PyTorch · PyTorch Lightning · PyTorch Forecasting (Temporal Fusion Transformer) · scikit-learn · Optuna · TensorBoard · pandas · NumPy
+**Computer Vision** - OpenCV · Image Classification · Gesture Recognition · Real-Time Video Processing · WebRTC (aiortc)
+**Backend** - Python · FastAPI · Django · Flask · Node.js · NestJS · GraphQL · REST · gRPC · PostgreSQL · MongoDB · Redis
+**Frontend** - React · Next.js · TypeScript · Tailwind CSS · Shadcn/ui · Vue.js · Redux · Zustand
+**Cloud & DevOps** - GCP · AWS · Kubernetes · Docker · Terraform · ArgoCD · GitHub Actions · Datadog · Grafana
+**SaaS & Multi-Tenancy** - Tenant Isolation (schema/row-level) · Org & Workspace Scoping · RBAC per Tenant · Stripe/Usage-Based Billing · Feature Flags · Self-Serve Onboarding
 **Testing** - Pytest · Jest · Cypress · Playwright · TDD/BDD · 90%+ coverage enforced
 
 ---
@@ -59,11 +61,12 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - **[Healthcare RBAC Platform](https://github.com/alpha5611331/healthcare-RBAC)** - HIPAA-conscious Provider Operations Platform demo replacing manual billing approval with an auditable, role-based system. *Stack: FastAPI · MongoDB (Motor, async) · Pydantic V2 · JWT Auth (python-jose, bcrypt) · Next.js · React · Tailwind CSS · Docker*
 
 <details>
-<summary><strong>Additional Projects</strong> — earlier freelance and exploratory work spanning AI tooling, browser automation, blockchain, and full-stack development</summary>
+<summary><strong>Additional Projects</strong> - earlier freelance and exploratory work spanning AI tooling, browser automation, blockchain, and full-stack development</summary>
 
 <br>
 
 **AI & Machine Learning**
+
 - [ai-assist](https://github.com/alpha5611331/ai-assist) - Desktop ChatGPT-like chatbot UI with configurable API key and model selection. *Stack: C# · WinForms*
 - [ai-assist-py](https://github.com/alpha5611331/ai-assist-py) - Python desktop AI chat assistant. *Stack: Python · OpenAI API · Pydantic · NiceGUI · pywebview · SQLAlchemy*
 - [fastapi-websocket-chatroom](https://github.com/alpha5611331/fastapi-websocket-chatroom) - Real-time multi-client chatroom. *Stack: FastAPI · WebSockets · Uvicorn*
@@ -72,6 +75,7 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - [msg-bin-analyze](https://github.com/alpha5611331/msg-bin-analyze) - Binary structure analysis and JSON parsing tool. *Stack: Python · Tkinter*
 
 **Web Scraping & Browser Automation**
+
 - [stealth-chrome-automation](https://github.com/alpha5611331/stealth-chrome-automation) - Undetectable Chrome automation via raw DevTools Protocol. *Stack: Node.js · Chrome DevTools Protocol (ws)*
 - [stealth-chrome-automation-py](https://github.com/alpha5611331/stealth-chrome-automation-py) - Python port of the stealth Chrome automation engine. *Stack: Python · Chrome DevTools Protocol*
 - [scrap-rapidapi.com](https://github.com/alpha5611331/scrap-rapidapi.com) - RapidAPI marketplace scraper/indexer. *Stack: Python · Playwright · Loguru*
@@ -91,12 +95,14 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - [shuffle.com-signup](https://github.com/alpha5611331/shuffle.com-signup) - Automated signup flow with Telegram verification. *Stack: Python · Pyrogram (Telegram) · Chrome DevTools Protocol*
 
 **Blockchain / Solana**
+
 - [solana-staking-app](https://github.com/alpha5611331/solana-staking-app) - Solana staking program. *Stack: Rust · Solana SDK*
 - [anchor-staking-app](https://github.com/alpha5611331/anchor-staking-app) - Solana staking dApp. *Stack: Rust · Anchor · TypeScript*
 - [fullstack-mysolanaapp](https://github.com/alpha5611331/fullstack-mysolanaapp) - Full-stack Solana dApp. *Stack: Rust · Anchor · React · TypeScript*
 - [solana-tic-tac-toe](https://github.com/alpha5611331/solana-tic-tac-toe) - On-chain tic-tac-toe game. *Stack: Rust · Anchor · TypeScript*
 
 **Full-Stack Web Apps**
+
 - [ge-crm-front](https://github.com/alpha5611331/ge-crm-front) - CRM frontend. *Stack: Next.js 15 · React 19 · Tailwind CSS · AG Grid · React Hook Form*
 - [ge-crm-back](https://github.com/alpha5611331/ge-crm-back) - CRM backend. *Stack: FastAPI · MongoDB (PyMongo) · Twilio · PyOTP · JWT Auth (python-jose)*
 - [api-plugin-frontend](https://github.com/alpha5611331/api-plugin-frontend) - API plugin platform frontend. *Stack: Next.js · TypeScript*
@@ -110,6 +116,7 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - [analysi-importer](https://github.com/alpha5611331/analysi-importer) - Audio transcription and analysis pipeline. *Stack: FastAPI · OpenAI API · Azure Cognitive Speech · PostgreSQL (SQLAlchemy) · AWS S3 (boto3) · APScheduler*
 
 **Utilities**
+
 - [parse-bitcoin-addresses](https://github.com/alpha5611331/parse-bitcoin-addresses) - Bitcoin address parser and validator. *Stack: Python · base58 · bech32 · pycryptodome*
 - [concurrent-tcp-server-client](https://github.com/alpha5611331/concurrent-tcp-server-client) - Concurrent TCP server/client with multi-threaded connection handling. *Stack: Python · sockets · threading*
 
@@ -118,4 +125,3 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 ---
 
 Open to contract, consulting, and full-time roles in Agentic AI, LLM systems, backend, and full-stack development.
-

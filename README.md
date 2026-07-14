@@ -36,6 +36,57 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - **Security** - OAuth2, JWT, input validation, rate limiting, encryption
 - **Observability** - Structured logging, distributed tracing, metrics, alerts
 
+## Projects
+
+### [AI Interview Assistant](https://github.com/PowerInterviewAI/client-app)
+
+Privacy-first Electron app with live transcription and real-time AI
+suggestions for interviews and coding challenges.
+
+**Stack:** Electron · React 19 · TypeScript · Vite · Zustand · TanStack Query · Radix UI · Tailwind CSS
+
+### [Grammar AI](https://github.com/vectorleap-pulse/grammar-ai)
+
+Free lightweight desktop app for AI-powered grammar correction and
+text polishing.
+
+**Stack:** Python · OpenAI API · Pydantic · pywebview · React · TypeScript · Vite · Tailwind CSS · shadcn/ui
+
+### [Startup Validator Agent](https://github.com/vectorleap-pulse/startup-validator-agent)
+
+Full-stack multi-agent system that validates startup ideas.
+
+**Stack:** FastAPI · Pydantic · OpenAI API · Tavily Search · SSE-Starlette · Next.js · React · Zustand · Framer Motion · Tailwind CSS
+
+### [Portfolio Research Agent](https://github.com/vectorleap-pulse/portfolio-research-agent)
+
+Multi-agent system that autonomously plans, searches, retrieves,
+summarizes, and synthesizes research reports, streamed live to a
+dashboard UI.
+
+**Stack:** FastAPI · LangChain · LangGraph · Qdrant · Next.js · TypeScript · Docker Compose
+
+### [Healthy Meal Copilot API](https://github.com/alpha5611331/fastapi-prototype-healtymeal-copilot-api)
+
+AI-powered meal planning backend combining multiple LLMs for
+personalized recommendations.
+
+**Stack:** FastAPI · Pydantic V2 · MongoDB (PyMongo) · Qdrant · OpenAI/Gemini/Claude APIs · JWT Auth (python-jose) · Pytest · Ruff · Mypy
+
+### [Travel Planner Agent](https://github.com/vectorleap-pulse/travel-planner-agent)
+
+Multi-agent travel planning tool where five agents research in
+parallel and synthesize a complete trip package via real-time streaming.
+
+**Stack:** FastAPI · OpenAI API · Tavily Search · SSE-Starlette · Next.js · React · Leaflet · Framer Motion · Zustand · Tailwind CSS
+
+### [Healthcare RBAC Platform](https://github.com/alpha5611331/healthcare-RBAC)
+
+HIPAA-conscious Provider Operations Platform demo replacing manual
+billing approval with an auditable, role-based system.
+
+**Stack:** FastAPI · MongoDB (Motor, async) · Pydantic V2 · JWT Auth (python-jose, bcrypt) · Next.js · React · Tailwind CSS · Docker
+
 ---
 
 Open to contract, consulting, and full-time roles in Agentic AI, LLM systems, backend, and full-stack development.

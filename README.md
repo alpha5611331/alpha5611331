@@ -14,6 +14,7 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - **LLM Applications** - RAG pipelines (95%+ accuracy), hybrid semantic search, prompt engineering, LLM observability & tracing, vector databases at scale
 - **High-Performance Backend APIs** - FastAPI + async Python, 10k+ req/min, sub-200ms semantic search over 100GB+ datasets, microservices, gRPC, WebSockets
 - **Full-Stack Applications** - React/Next.js 14+ (App Router, RSC), TypeScript, Tailwind CSS frontends backed by scalable Python/Node microservices
+- **SaaS & Multi-Tenant Platforms** - Tenant-isolated data models, org/workspace-scoped RBAC, usage-based billing integrations, self-serve onboarding flows
 
 ---
 
@@ -24,6 +25,7 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 **Backend** - Python · FastAPI · Django · Flask · Node.js · NestJS · GraphQL · REST · gRPC · PostgreSQL · MongoDB · Redis  
 **Frontend** - React · Next.js · TypeScript · Tailwind CSS · Shadcn/ui · Vue.js · Redux · Zustand  
 **Cloud & DevOps** - GCP · AWS · Kubernetes · Docker · Terraform · ArgoCD · GitHub Actions · Datadog · Grafana  
+**SaaS & Multi-Tenancy** - Tenant Isolation (schema/row-level) · Org & Workspace Scoping · RBAC per Tenant · Stripe/Usage-Based Billing · Feature Flags · Self-Serve Onboarding  
 **Testing** - Pytest · Jest · Cypress · Playwright · TDD/BDD · 90%+ coverage enforced
 
 ---
@@ -32,6 +34,7 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 
 - **Architecture** - Clean Architecture, SOLID principles, dependency injection, async patterns, type safety (Pydantic V2, mypy strict, TypeScript strict)
 - **Agentic AI** - Bounded autonomy, fallback mechanisms, dynamic tool selection, agent observability, safety guardrails, cost controls
+- **Multi-Tenancy** - Tenant data isolation, per-tenant rate limiting and quotas, tenant-aware caching, safe cross-tenant migrations
 - **Security** - OAuth2, JWT, input validation, rate limiting, encryption
 - **Observability** - Structured logging, distributed tracing, metrics, alerts
 

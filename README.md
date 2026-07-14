@@ -12,6 +12,8 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 
 - **Agentic AI Systems** - Multi-agent orchestration, autonomous workflows, tool-calling agents, agent memory & state management with LangGraph, CrewAI & AutoGen
 - **LLM Applications** - RAG pipelines (95%+ accuracy), hybrid semantic search, prompt engineering, LLM observability & tracing, vector databases at scale
+- **ML & Forecasting Systems** - Time-series forecasting (Temporal Fusion Transformer), model training pipelines, hyperparameter optimization, experiment tracking
+- **Computer Vision** - Real-time image/video processing, classification models, gesture recognition, webcam/WebRTC video pipelines
 - **High-Performance Backend APIs** - FastAPI + async Python, 10k+ req/min, sub-200ms semantic search over 100GB+ datasets, microservices, gRPC, WebSockets
 - **Full-Stack Applications** - React/Next.js 14+ (App Router, RSC), TypeScript, Tailwind CSS frontends backed by scalable Python/Node microservices
 - **SaaS & Multi-Tenant Platforms** - Tenant-isolated data models, org/workspace-scoped RBAC, usage-based billing integrations, self-serve onboarding flows
@@ -22,6 +24,8 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 
 **Agentic AI** - LangGraph · CrewAI · AutoGen · Tool-Calling · Agent Memory · Multi-Agent Orchestration  
 **LLM & Search** - LangChain · OpenAI GPT-4o/o1 · Anthropic Claude · Hugging Face · RAG Pipelines · Qdrant · Pinecone · Weaviate · Elasticsearch  
+**Machine Learning** - PyTorch · PyTorch Lightning · PyTorch Forecasting (Temporal Fusion Transformer) · scikit-learn · Optuna · TensorBoard · pandas · NumPy  
+**Computer Vision** - OpenCV · Image Classification · Gesture Recognition · Real-Time Video Processing · WebRTC (aiortc)  
 **Backend** - Python · FastAPI · Django · Flask · Node.js · NestJS · GraphQL · REST · gRPC · PostgreSQL · MongoDB · Redis  
 **Frontend** - React · Next.js · TypeScript · Tailwind CSS · Shadcn/ui · Vue.js · Redux · Zustand  
 **Cloud & DevOps** - GCP · AWS · Kubernetes · Docker · Terraform · ArgoCD · GitHub Actions · Datadog · Grafana  
@@ -34,6 +38,8 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 
 - **Architecture** - Clean Architecture, SOLID principles, dependency injection, async patterns, type safety (Pydantic V2, mypy strict, TypeScript strict)
 - **Agentic AI** - Bounded autonomy, fallback mechanisms, dynamic tool selection, agent observability, safety guardrails, cost controls
+- **Machine Learning** - Reproducible training pipelines, hyperparameter tuning with Optuna, experiment tracking with TensorBoard, train/validation/test discipline
+- **Computer Vision** - Real-time frame processing under latency budgets, model inference optimization, robust webcam/stream capture handling
 - **Multi-Tenancy** - Tenant data isolation, per-tenant rate limiting and quotas, tenant-aware caching, safe cross-tenant migrations
 - **Security** - OAuth2, JWT, input validation, rate limiting, encryption
 - **Observability** - Structured logging, distributed tracing, metrics, alerts
@@ -62,6 +68,7 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - [ai-assist-py](https://github.com/alpha5611331/ai-assist-py) - Python desktop AI chat assistant. *Stack: Python · OpenAI API · Pydantic · NiceGUI · pywebview · SQLAlchemy*
 - [fastapi-websocket-chatroom](https://github.com/alpha5611331/fastapi-websocket-chatroom) - Real-time multi-client chatroom. *Stack: FastAPI · WebSockets · Uvicorn*
 - [tft-model-training](https://github.com/alpha5611331/tft-model-training) - Temporal Fusion Transformer model training pipeline for crypto price forecasting. *Stack: PyTorch · PyTorch Lightning · PyTorch Forecasting · Bittensor · CCXT · Optuna · scikit-learn*
+- [meta-face-py](https://github.com/alpha5611331/meta-face-py) - Real-time virtual camera app with live video/audio processing pipeline. *Stack: Python · OpenCV · aiortc (WebRTC) · PyVirtualCam · Pillow*
 - [msg-bin-analyze](https://github.com/alpha5611331/msg-bin-analyze) - Binary structure analysis and JSON parsing tool. *Stack: Python · Tkinter*
 
 **Web Scraping & Browser Automation**

@@ -4,6 +4,8 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 
 10+ years building production-grade systems - from autonomous multi-agent workflows to high-performance APIs and modern full-stack applications.
 
+**Contents:** [What I Build](#what-i-build) · [Impact](#impact) · [Core Stack](#core-stack) · [Best Practices](#best-practices) · [Projects](#projects)
+
 ---
 
 ## What I Build
@@ -13,12 +15,16 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - **High-Performance Backend APIs** - FastAPI + async Python, 10k+ req/min, sub-200ms semantic search over 100GB+ datasets, microservices, gRPC, WebSockets
 - **Full-Stack Applications** - React/Next.js 14+ (App Router, RSC), TypeScript, Tailwind CSS frontends backed by scalable Python/Node microservices
 
+---
+
 ## Impact
 
 - 40% reduction in operational costs via intelligent automation and AI integration
 - 60% faster time-to-market through robust test automation and CI/CD pipelines (90%+ coverage)
 - 35% improvement in customer satisfaction via AI-powered interfaces and support systems
 - 99.9% uptime SLA across applications serving 10M+ monthly users
+
+---
 
 ## Core Stack
 
@@ -29,6 +35,8 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 **Cloud & DevOps** - GCP · AWS · Kubernetes · Docker · Terraform · ArgoCD · GitHub Actions · Datadog · Grafana  
 **Testing** - Pytest · Jest · Cypress · Playwright · TDD/BDD · 90%+ coverage enforced
 
+---
+
 ## Best Practices
 
 - **Architecture** - Clean Architecture, SOLID principles, dependency injection, async patterns, type safety (Pydantic V2, mypy strict, TypeScript strict)
@@ -36,7 +44,11 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - **Security** - OAuth2, JWT, input validation, rate limiting, encryption
 - **Observability** - Structured logging, distributed tracing, metrics, alerts
 
+---
+
 ## Projects
+
+### Featured
 
 - **[AI Interview Assistant](https://github.com/PowerInterviewAI/client-app)** - Privacy-first Electron app with live transcription and real-time AI suggestions for interviews and coding challenges. *Stack: Electron · React 19 · TypeScript · Vite · Zustand · TanStack Query · Radix UI · Tailwind CSS*
 - **[Grammar AI](https://github.com/vectorleap-pulse/grammar-ai)** - Free lightweight desktop app for AI-powered grammar correction and text polishing. *Stack: Python · OpenAI API · Pydantic · pywebview · React · TypeScript · Vite · Tailwind CSS · shadcn/ui*
@@ -46,14 +58,16 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - **[Travel Planner Agent](https://github.com/vectorleap-pulse/travel-planner-agent)** - Multi-agent travel planning tool where five agents research in parallel and synthesize a complete trip package via real-time streaming. *Stack: FastAPI · OpenAI API · Tavily Search · SSE-Starlette · Next.js · React · Leaflet · Framer Motion · Zustand · Tailwind CSS*
 - **[Healthcare RBAC Platform](https://github.com/alpha5611331/healthcare-RBAC)** - HIPAA-conscious Provider Operations Platform demo replacing manual billing approval with an auditable, role-based system. *Stack: FastAPI · MongoDB (Motor, async) · Pydantic V2 · JWT Auth (python-jose, bcrypt) · Next.js · React · Tailwind CSS · Docker*
 
-### More Projects
+<details>
+<summary><strong>Additional Projects</strong> — earlier freelance and exploratory work spanning AI tooling, browser automation, blockchain, and full-stack development</summary>
+
+<br>
 
 **AI & Machine Learning**
 - [ai-assist](https://github.com/alpha5611331/ai-assist) - Desktop ChatGPT-like chatbot UI with configurable API key and model selection. *Stack: C# · WinForms*
 - [ai-assist-py](https://github.com/alpha5611331/ai-assist-py) - Python desktop AI chat assistant. *Stack: Python · OpenAI API · Pydantic · NiceGUI · pywebview · SQLAlchemy*
 - [fastapi-websocket-chatroom](https://github.com/alpha5611331/fastapi-websocket-chatroom) - Real-time multi-client chatroom. *Stack: FastAPI · WebSockets · Uvicorn*
 - [tft-model-training](https://github.com/alpha5611331/tft-model-training) - Temporal Fusion Transformer model training pipeline for crypto price forecasting. *Stack: PyTorch · PyTorch Lightning · PyTorch Forecasting · Bittensor · CCXT · Optuna · scikit-learn*
-- [deep-learning-practice](https://github.com/alpha5611331/deep-learning-practice) - PyTorch NLP tutorial collection (GPT-2 sentence generation, Sentence-BERT chatbot). *Stack: Python · PyTorch · Jupyter Notebook*
 - [msg-bin-analyze](https://github.com/alpha5611331/msg-bin-analyze) - Binary structure analysis and JSON parsing tool. *Stack: Python · Tkinter*
 
 **Web Scraping & Browser Automation**
@@ -80,9 +94,6 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - [anchor-staking-app](https://github.com/alpha5611331/anchor-staking-app) - Solana staking dApp. *Stack: Rust · Anchor · TypeScript*
 - [fullstack-mysolanaapp](https://github.com/alpha5611331/fullstack-mysolanaapp) - Full-stack Solana dApp. *Stack: Rust · Anchor · React · TypeScript*
 - [solana-tic-tac-toe](https://github.com/alpha5611331/solana-tic-tac-toe) - On-chain tic-tac-toe game. *Stack: Rust · Anchor · TypeScript*
-- [create-pda-example](https://github.com/alpha5611331/create-pda-example) - Program Derived Address example. *Stack: Rust · Solana SDK · Borsh*
-- [transfer-sol-example](https://github.com/alpha5611331/transfer-sol-example) - SOL transfer example program. *Stack: Rust · Solana SDK*
-- [solana-hello-world](https://github.com/alpha5611331/solana-hello-world) - Minimal on-chain Solana program. *Stack: Rust · Solana SDK · Borsh*
 
 **Full-Stack Web Apps**
 - [ge-crm-front](https://github.com/alpha5611331/ge-crm-front) - CRM frontend. *Stack: Next.js 15 · React 19 · Tailwind CSS · AG Grid · React Hook Form*
@@ -92,19 +103,16 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - [creed-dekaron-user-frontend](https://github.com/alpha5611331/creed-dekaron-user-frontend) - Game community frontend with captcha, PayPal, and datatable integration. *Stack: React 18 · Ant Design · Material Tailwind · PayPal SDK*
 - [creed-dekaron-admin-frontend](https://github.com/alpha5611331/creed-dekaron-admin-frontend) - Admin panel for the Creed Dekaron platform. *Stack: React 18 · Ant Design · Material Tailwind*
 - [visionui-react-admin-panel](https://github.com/alpha5611331/visionui-react-admin-panel) - VisionUI-based admin panel. *Stack: React 18 · Ant Design · Flowbite · Express.js*
-- [portfolio-prototype](https://github.com/alpha5611331/portfolio-prototype) - Early portfolio site. *Stack: React 17 · Bootstrap · react-pdf*
 - [nextjs-self-tech](https://github.com/alpha5611331/nextjs-self-tech) - Tech blog. *Stack: Next.js · MongoDB · react-markdown*
-- [starter-nextjs](https://github.com/alpha5611331/starter-nextjs) - Next.js starter template. *Stack: Next.js · Node.js server*
 - [checker_board_webpage](https://github.com/alpha5611331/checker_board_webpage) - Real-time board game web app. *Stack: Express.js · Socket.io · MySQL · JWT*
-- [react-person-demo](https://github.com/alpha5611331/react-person-demo) - React component demo. *Stack: React · Cypress*
 - [ta-v00](https://github.com/alpha5611331/ta-v00) - Document processing application. *Stack: Laravel 13 · PHP 8.2 · PHPWord · Vite*
 - [analysi-importer](https://github.com/alpha5611331/analysi-importer) - Audio transcription and analysis pipeline. *Stack: FastAPI · OpenAI API · Azure Cognitive Speech · PostgreSQL (SQLAlchemy) · AWS S3 (boto3) · APScheduler*
 
 **Utilities**
-- [docx2pdf-demo](https://github.com/alpha5611331/docx2pdf-demo) - DOCX to PDF conversion without watermarking. *Stack: Python*
-- [write-xlsx-py](https://github.com/alpha5611331/write-xlsx-py) - XLSX file-writing demo. *Stack: Python · XlsxWriter*
-- [parse-bitcoin-addresses](https://github.com/alpha5611331/parse-bitcoin-addresses) - Bitcoin address parser. *Stack: Python · base58 · bech32 · pycryptodome*
-- [concurrent-tcp-server-client](https://github.com/alpha5611331/concurrent-tcp-server-client) - Concurrent TCP server/client demo. *Stack: Python · sockets · threading*
+- [parse-bitcoin-addresses](https://github.com/alpha5611331/parse-bitcoin-addresses) - Bitcoin address parser and validator. *Stack: Python · base58 · bech32 · pycryptodome*
+- [concurrent-tcp-server-client](https://github.com/alpha5611331/concurrent-tcp-server-client) - Concurrent TCP server/client with multi-threaded connection handling. *Stack: Python · sockets · threading*
+
+</details>
 
 ---
 

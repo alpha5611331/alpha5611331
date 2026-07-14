@@ -24,15 +24,15 @@ Comfortable owning a project end-to-end: agent orchestration and RAG pipelines, 
 
 ## Core Stack
 
-**Agentic AI** - LangGraph · CrewAI · AutoGen · Tool-Calling · Agent Memory · Multi-Agent Orchestration
-**LLM & Search** - LangChain · OpenAI GPT-4o/o1 · Anthropic Claude · Hugging Face · RAG Pipelines · Qdrant · Pinecone · Weaviate · Elasticsearch
-**Machine Learning** - PyTorch · PyTorch Lightning · PyTorch Forecasting (Temporal Fusion Transformer) · scikit-learn · Optuna · TensorBoard · pandas · NumPy
-**Computer Vision** - OpenCV · Image Classification · Gesture Recognition · Real-Time Video Processing · WebRTC (aiortc)
-**Backend** - Python · FastAPI · Django · Flask · Node.js · NestJS · GraphQL · REST · gRPC · PostgreSQL · MongoDB · Redis
-**Frontend** - React · Next.js · TypeScript · Tailwind CSS · Shadcn/ui · Vue.js · Redux · Zustand
-**Cloud & DevOps** - GCP · AWS · Kubernetes · Docker · Terraform · ArgoCD · GitHub Actions · Datadog · Grafana
-**SaaS & Multi-Tenancy** - Tenant Isolation (schema/row-level) · Org & Workspace Scoping · RBAC per Tenant · Stripe/Usage-Based Billing · Feature Flags · Self-Serve Onboarding
-**Testing** - Pytest · Jest · Cypress · Playwright · TDD/BDD · 90%+ coverage enforced
+- **Agentic AI** - LangGraph · CrewAI · AutoGen · Tool-Calling · Agent Memory · Multi-Agent Orchestration
+- **LLM & Search** - LangChain · OpenAI GPT-4o/o1 · Anthropic Claude · Hugging Face · RAG Pipelines · Qdrant · Pinecone · Weaviate · Elasticsearch
+- **Machine Learning** - PyTorch · PyTorch Lightning · PyTorch Forecasting (Temporal Fusion Transformer) · scikit-learn · Optuna · TensorBoard · pandas · NumPy
+- **Computer Vision** - OpenCV · Image Classification · Gesture Recognition · Real-Time Video Processing · WebRTC (aiortc)
+- **Backend** - Python · FastAPI · Django · Flask · Node.js · NestJS · GraphQL · REST · gRPC · PostgreSQL · MongoDB · Redis
+- **Frontend** - React · Next.js · TypeScript · Tailwind CSS · Shadcn/ui · Vue.js · Redux · Zustand
+- **Cloud & DevOps** - GCP · AWS · Kubernetes · Docker · Terraform · ArgoCD · GitHub Actions · Datadog · Grafana
+- **SaaS & Multi-Tenancy** - Tenant Isolation (schema/row-level) · Org & Workspace Scoping · RBAC per Tenant · Stripe/Usage-Based Billing · Feature Flags · Self-Serve Onboarding
+- **Testing** - Pytest · Jest · Cypress · Playwright · TDD/BDD · 90%+ coverage enforced
 
 ---
 

@@ -4,7 +4,7 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 
 10+ years building production-grade systems - from autonomous multi-agent workflows to high-performance APIs and modern full-stack applications.
 
-**Contents:** [What I Build](#what-i-build) · [Impact](#impact) · [Core Stack](#core-stack) · [Best Practices](#best-practices) · [Projects](#projects)
+**Contents:** [What I Build](#what-i-build) · [Core Stack](#core-stack) · [Best Practices](#best-practices) · [Projects](#projects)
 
 ---
 
@@ -14,15 +14,6 @@ LangGraph · CrewAI · LangChain · FastAPI · React/Next.js · GCP/AWS · Kuber
 - **LLM Applications** - RAG pipelines (95%+ accuracy), hybrid semantic search, prompt engineering, LLM observability & tracing, vector databases at scale
 - **High-Performance Backend APIs** - FastAPI + async Python, 10k+ req/min, sub-200ms semantic search over 100GB+ datasets, microservices, gRPC, WebSockets
 - **Full-Stack Applications** - React/Next.js 14+ (App Router, RSC), TypeScript, Tailwind CSS frontends backed by scalable Python/Node microservices
-
----
-
-## Impact
-
-- 40% reduction in operational costs via intelligent automation and AI integration
-- 60% faster time-to-market through robust test automation and CI/CD pipelines (90%+ coverage)
-- 35% improvement in customer satisfaction via AI-powered interfaces and support systems
-- 99.9% uptime SLA across applications serving 10M+ monthly users
 
 ---
 
